@@ -6,24 +6,13 @@ for i in range (len(s)):
     if s[i] == s[i].lower():
         myString =  myString + s[i].upper()
     elif s[i] == s[i].upper():
-        myString = myString + s[i].lower()
-        
-        
-        #myString[i] = myString[S[i]] + S[val].swapcase()
+        myString = myString + s[i].lower()        
+       
 print(myString, end='')
-        
-
-
-
-
-
-
-
-#print(input().swapcase(), end="")
-
 
 
 '''
+
 Week 10: Programming Assignment 3
 Due on 2022-10-06, 23:59 IST
 Given a string s write a program to convert uppercase letters into lowercase and
